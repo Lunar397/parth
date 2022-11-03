@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+.header{
+    padding:1.875rem;
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+    font-size:1.25rem;
+    display:flex;
+   flex-wrap:wrap;
+   align-content:center;
+   height:12vh;
+   justify-content:space-between;
+}
+.header img{
+    width:8%;
+    height:60%;
+}
+.header-1{
+    margin-left:4%;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    align-items:center;
+    height:12vh;
+    width:40vw;
+    gap:6%;
+}
+.header-2{
+    width:20vw;
+    display:flex;
+    flex-wrap:wrap;
+    place-content:center;
+}
+ #invite-btn{
+    background-color: rgb(50, 77, 186);
+    color:white;
+    font-size:1.25rem;
+    height:60%;
+    width:50%;
+    border-radius:0.625rem;
+}
+#invite-btn:hover{
+background-color: rgb(149, 72, 212);
+}
+#Home:hover{
+    color:rgb(80, 104, 204)
+}
+#Documentation:hover{
+    color:rgb(80, 104, 204)
+}
+#status:hover{
+    color:rgb(80, 104, 204)
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.body{
+    color:white;
+    height:88vh;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+line-height:30px;
+flex-wrap:wrap;
+text-align:center;
+background-image:url('svg/wave-haikei.svg');
+background-repeat:no-repeat;
+background-position:center;
+background-attachment: fixed;
+background-size: cover;
+}
+.description,.electro-bot-heading {
+    margin-top:8%;
+}
+
+.first-part{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:10%;
+}
+.description{
+    font-weight:300;
+}
+.electro-bot-heading{
+    font-size:3.125rem;
+    text-align:center;
+    padding-right:1.25rem;
+}
+.button-part{
+    height:50%;
+    display:flex;
+    flex-wrap:wrap;
+    place-content:center;
+    gap:3%;
+}
+.invite-btn2,.join-btn{
+height:40%;
+border-radius:0.625rem;
+transition:0.3s;
+margin-bottom:3%;
+}
+.invite-btn2{
+    color:white;
+    width:12vw;
+    background-color: rgb(17, 72, 237);
+    padding:1.25rem;
+    font-size:1.375rem;
+    border-color:transparent;
+}
+.join-btn{
+    border-style:solid;
+    width:19vw;
+    border-color:rgb(45, 137, 207);
+    padding:0.1875rem;
+    font-size:1.375rem;
+    background-color: rgb(26, 25, 25);
+    color:white;
+}
+.invite-btn2:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.join-btn:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+#invite-btn:hover{
+    cursor:pointer;
+}

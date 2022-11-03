@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroBot Home</title>
+    <link href="parth.css" rel="stylesheet">
+    <link href="images/botLogo.png" rel="icon">
+    <script src="https://kit.fontawesome.com/cd7cfbd582.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+<div class="header">
+    <div class="header-1">
+        <img src="images/botLogo.png">
+
+<a href="" id="Home">Home</a>
+<a href="https://electrobot.xyz/documentation" id="Documentation">Documentation</a>
+<a href="https://electrobot.xyz/discord" id="status">Status</a>
+    </div>
+    <div class="header-2">
+        <button id="invite-btn">
+            <i class="fa-brands fa-discord"></i>
+            Invite
+        </button>
+      
+        
+    </div>
+
+</div>
+<div class="body">
+<div class="first-part">
+    <h1 class="electro-bot-heading">Electro Bot</h1>
+    <h3 class="description">A Multipurpose Discord Bot that supports Advance Moderation /<br>
+         Server Control, Giveaways, Ticketing, Utilities in simplest way possible.</h3>
+          <div class="button-part">
+            <button class="invite-btn2">Invite Electro</button>
+        <button class="join-btn">Join the Support Server</button>
+        </div>
+          
+</div>
+    
+</div>
+</div>
+
+
+    </div>
+</body>
+<script>let invitebtn = document.querySelector('#invite-btn')
+    invitebtn.addEventListener('click' , ()=> {
+        window.open('https://electrobot.xyz/invite' , '_blank')
+    })
+    let invitebtn2 = document.querySelector('.invite-btn2')
+    invitebtn2.addEventListener('click' , ()=>{
+        window.open('https://electrobot.xyz/invite' , '_blank')
+    })
+    let joinbtn = document.querySelector('.join-btn')
+    joinbtn.addEventListener('click' , ()=>{
+        window.open('https://electrobot.xyz/discord'  , "_blank")
+    })
+    const home = document.querySelector('#home')
+    home.addEventListener('click' , ()=>{
+    window.location.reload();
+    })</script>
+</html>
