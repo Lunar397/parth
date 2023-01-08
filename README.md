@@ -1,1 +1,1 @@
-parth's website but incomplete
+Parth's website's homepage but it's incomplete.
